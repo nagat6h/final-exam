@@ -9,8 +9,8 @@ products = [ ["منتج 1", 10],
 while True: 
 # عرض قائمة المنتجات
     print("اختر رقم المنتج:")
-    for i in range(len(products)):
-     print(f"{i+1} - {products[i][0]}")
+    for n in range(len(products)):
+     print(f"{n+1} - {products[n][0]}")
 
     productNumber = int(input("اكتب الرقم: "))
     if 1 <= productNumber <= 5:
