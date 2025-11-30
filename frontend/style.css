@@ -10,7 +10,6 @@
     .navbar a:hover {
       color: #eed28c !important;
  }
-
     /*الصفحة الرئيسية */
 .hero-text {
   text-align: center;     
@@ -75,9 +74,6 @@
   margin-top: 25px;
 }
 
-
-
-/* تنسيق قائمة النقاط */
 #n3 .n4 {
   margin-top: 10px;
   padding-right: 20px;
