@@ -1,0 +1,148 @@
+  /*قائمة تنقل */
+.navbar {
+      background: linear-gradient(90deg, #6c84ad, #d7b36d);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+ }
+    .navbar a {
+      color: #fdf3f3 !important;
+      font-weight: 600;
+}
+    .navbar a:hover {
+      color: #eed28c !important;
+ }
+
+    /*الصفحة الرئيسية */
+.hero-text {
+  text-align: center;     
+  margin: 0 auto;         
+  width: fit-content;     
+  font-family: "Tajawal", sans-serif;
+  line-height: 1.5;       
+  color: #92b0e1;           
+  font-size: 22px;        
+}
+/* لون كلمة "حياتي" */
+.n1 {
+  color: #998619;
+}
+
+/*صفحة تسجيل الدخول*/
+#h {
+  max-width: 400px; /* أقصى عرض للحاوية */
+  margin-left: auto; /* توسيط الحاوية أفقيًا */
+  margin-right: auto;
+  color: #92b0e1;
+   margin-top: 80px;
+  
+}
+#h h2 {
+  color: #aa8f66;
+  text-align: center;     
+}
+#h label {
+  color: #a17474;
+}
+#h .form-control:focus {
+  border-color: #d7b36d;
+  box-shadow: 0 0 5px #e7280655;
+}
+#h button {
+  background-color: #d7b36d;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+
+/* صفحة من نحن  */
+#n3 {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: #5d4a4a;
+  margin-bottom: 18px;
+}
+#n3 h2 {
+   text-align: center;     /* توسيط النص داخل العنصر */  
+  color: #aa8f66;
+  font-weight: 900;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+#n3 h5 {
+  color: #aa8f66;
+  font-weight: 800;
+  margin-top: 25px;
+}
+
+
+
+/* تنسيق قائمة النقاط */
+#n3 .n4 {
+  margin-top: 10px;
+  padding-right: 20px;
+  color: #6c84ad;
+  line-height: 2;
+  font-size: 1.05rem;
+}
+
+#n3 .n4 li {
+  margin-bottom: 6px;
+  position: relative;
+}
+#n3 .n4 {
+  list-style: none; /* تعطيل النقاط الافتراضية */
+  padding: 0;       /* إزالة البادينج الافتراضي */
+  margin: 0;        /* إزالة المارجن الافتراضي */
+}
+/* نقطة قبل كل سطر */
+#n3 .n4 li::before {
+  content: "•";
+  color: #ebb8b8;
+  font-size: 1.3rem;
+  margin-left: 8px;
+}
+
+
+ /*  التواصل */
+#f h3 {
+  color: #aa8f66; 
+}
+#f label {
+  color: #a17474;
+}
+#f .form-control {
+  border: 1px solid #f7bbbb;
+ 
+}
+
+#f .form-control:focus {
+  border-color: #96b7f4;
+  box-shadow: 0 0 5px #54aeee55;
+}
+
+#f button {
+  background-color: #d7b36d;
+}
+
+#f button:hover {
+  background-color: #6c84ad;
+  color: #fad0d0;
+}
+
+/*اخر الصفحة */
+ footer {
+      background: linear-gradient(135deg, #f5eceb, #f7dedd);
+      text-align: center;
+      padding: 10px ;
+      color: #aa9d7c;
+      font-weight: 600;
+      border-top: 1px solid #f6f4f4;
+      margin-top: 40px;
+       /* التثبيت أسفل الصفحة */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+    }
